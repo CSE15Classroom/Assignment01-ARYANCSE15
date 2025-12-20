@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> TrueMen | Men's Store</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+header {
+    background-color: gray;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+.hero {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.products {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    background-color: #000428;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TrueMen</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Upgrade Your Style</h2>
+    <p>Premium Accessories for Men</p>
+    <button>Shop Now</button>
+</section>
+
+<section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZ7cWfJFldg2VFPpX6XjMdBmr2HJXVyE_Gg&s" alt="">
+            <h3>Men Watch</h3>
+            <p>₹1999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRHwBBYlyMe_-ufWV8on3-PlZ0YVmKZ1w7w&s" alt="">
+            <h3>Leather Wallet</h3>
+            <p>₹799</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDdkAzR6A9_cJFq2IUDlY4zJ5dzD-5kQYfw&s" alt="">
+            <h3>Sunglasses</h3>
+            <p>₹999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://redtape.com/cdn/shop/files/RSO3624_8_jpg_44fe9f41-8fec-42d4-bbf4-3b483d1319df.jpg?v=1756810019" alt="">
+            <h3>Sports Shoes</h3>
+            <p>₹2499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61RahTQtAqL._AC_UF1000,1000_QL80_.jpg" alt="">
+            <h3>Bluetooth Headphones</h3>
+            <p>₹1499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://www.jiomart.com/images/product/original/rvzkcqcp8b/gil-genuine-leather-belt-for-men-mens-designer-belts-formal-casual-belt-branded-belts-tan-40-product-images-rvzkcqcp8b-0-202306250614.jpg?im=Resize=(500,630)" alt="">
+            <h3>Casual Belt</h3>
+            <p>₹499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://www.boat-lifestyle.com/cdn/shop/files/SmartRing-FI01-7-removebg-preview.png?v=1692966055" alt="">
+            <h3>Smart Rings</h3>
+            <p>₹2799</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://nemichandjewels.com/cdn/shop/files/4F6A9815.jpg?v=1693231632&width=1946" alt="">
+            <h3>Braclets</h3>
+            <p>₹299</p>
+            <button>Add to Cart</button>
+        </div>
+
+
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 TrueMen | Aryan Sharma</p>
+</footer>
+
+</body>
+</html>
